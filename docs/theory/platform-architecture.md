@@ -1,4 +1,4 @@
-# OnDemandEnv Architecture
+# Platform Architecture
 
 ## Platform Overview
 
