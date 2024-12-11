@@ -1,32 +1,84 @@
 theme: jekyll-theme-minimal
 title: OnDemandEnv Platform
-description: Domain-Driven Design for Distributed Systems
-logo: /assets/images/logo.png
-show_downloads: false
-google_analytics: UA-000000-01
+description: Domain-Driven Design for Distributed Systems | A Contract-First Platform
+logo: /assets/img/logo.png
+baseurl: ""
+url: "https://ondemandenv.github.io"
+
+permalink: pretty
+
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
-navigation:
-  - title: Home
-    url: /
-  - title: Domain Theory
-    url: /docs/theory
-  - title: AWS Implementation
-    url: /docs/implementations/aws
-  - title: About
-    url: /docs/about
+
+collections:
+  pages:
+    output: true
+    permalink: /:name
+
 defaults:
   - scope:
       path: ""
     values:
-      layout: default
+      layout: base
+  - scope:
+      path: "pages"
+      type: "pages"
+    values:
+      layout: page
   - scope:
       path: "docs/theory"
     values:
-      layout: theory
+      layout: docs
+      section: theory
   - scope:
       path: "docs/implementations"
     values:
-      layout: implementation
+      layout: docs
+      section: implementations
+
+sass:
+  style: compressed
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENSE
+  - vendor
+
+nav_sections:
+  - name: Theory
+    path: /docs/theory
+    subsections:
+      - name: Overview
+        path: /docs/theory/overview
+      - name: Domain-Driven Design
+        path: /docs/theory/domain-driven-design
+      - name: Service Contracts
+        path: /docs/theory/service-contracts
+      - name: Platform Architecture
+        path: /docs/theory/platform-architecture
+      - name: Use Cases
+        path: /docs/theory/use-cases
+      - name: Divide & Conquer
+        path: /docs/theory/divide-and-conquer
+
+  - name: AWS Implementation
+    path: /docs/implementations/aws
+    subsections:
+      - name: Overview
+        path: /docs/implementations/aws/overview
+      - name: Architecture
+        path: /docs/implementations/aws/architecture
+      - name: Getting Started
+        path: /docs/implementations/aws/getting-started
+      - name: Sample Projects
+        path: /docs/implementations/aws/sample-projects
+
+github:
+  is_project_page: true
+  repository_url: https://github.com/ondemandenv/odmd-platform
+
+google_analytics:

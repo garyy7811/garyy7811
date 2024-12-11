@@ -1,0 +1,99 @@
+---
+@import "style";
+@import "base";
+@import "layout";
+
+.navigation {
+  padding: 1rem 0;
+  background: #f8f9fa;
+  
+  .nav-link {
+    color: #333;
+    padding: 0.5rem 1rem;
+    
+    &:hover {
+      color: #007bff;
+    }
+    
+    &.active {
+      color: #007bff;
+      font-weight: bold;
+    }
+  }
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 0;
+  background: #f8f9fa;
+  
+  h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .lead {
+    font-size: 1.25rem;
+    color: #6c757d;
+  }
+}
+
+.features {
+  padding: 4rem 0;
+  
+  .feature-card {
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    
+    h3 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+.implementation-showcase {
+  background: #fff;
+  padding: 4rem 0;
+  
+  .card {
+    height: 100%;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+}
+
+.call-to-action {
+  background: linear-gradient(45deg, #007bff, #0056b3);
+  padding: 4rem 0;
+  color: #fff;
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-outline-light {
+    &:hover {
+      background: #fff;
+      color: #007bff;
+    }
+  }
+}
+
+footer {
+  padding: 2rem 0;
+  background: #f8f9fa;
+  
+  .social-links {
+    a {
+      color: #6c757d;
+      margin: 0 0.5rem;
+      
+      &:hover {
+        color: #007bff;
+      }
+    }
+  }
+}
