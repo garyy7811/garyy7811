@@ -33,7 +33,7 @@ defaults:
       layout: default
   - scope:
       path: "_docs"
-      type: "docs"
+      type: docs
     values:
       layout: page
 
