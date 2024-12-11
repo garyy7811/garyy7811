@@ -6,8 +6,12 @@ logo: /assets/img/logo.png
 url: https://ondemandenv.github.io
 baseurl: ""
 
-permalink: pretty
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
+# Ensure these plugins are enabled
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
