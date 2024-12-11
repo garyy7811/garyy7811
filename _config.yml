@@ -14,8 +14,11 @@ plugins:
   - jekyll-sass-converter
 
 sass:
-  sass_dir: assets/css
   style: compressed
+  sass_dir: _sass
+  load_paths:
+    - _sass
+    - node_modules
 
 collections:
   pages:
@@ -49,6 +52,7 @@ exclude:
   - README.md
   - LICENSE
   - vendor
+  - node_modules
 
 nav_sections:
   - name: Theory
