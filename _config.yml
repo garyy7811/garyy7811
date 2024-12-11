@@ -11,6 +11,11 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-sass-converter
+
+sass:
+  sass_dir: assets/css
+  style: compressed
 
 collections:
   pages:
@@ -37,9 +42,6 @@ defaults:
     values:
       layout: docs
       section: implementations
-
-sass:
-  style: compressed
 
 exclude:
   - Gemfile
@@ -82,3 +84,13 @@ github:
   repository_url: https://github.com/ondemandenv/odmd-platform
 
 google_analytics:
+
+navigation:
+  - title: Home
+    url: /
+  - title: Theory
+    url: /docs/theory/overview
+  - title: Implementation
+    url: /docs/implementations/aws/overview
+  - title: About
+    url: /docs/about
