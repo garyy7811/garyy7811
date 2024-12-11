@@ -4,7 +4,7 @@ description: Domain-Driven Design for Distributed Systems | A Contract-First Pla
 logo: /assets/img/logo.png
 
 url: https://garyy7811.github.io
-baseurl: ""
+baseurl: /garyy7811
 
 markdown: kramdown
 kramdown:
