@@ -1,81 +1,96 @@
 ---
 layout: default
-title: Home
+title: OnDemandEnv | Contract-First Development Platform
 ---
 
-# OnDemandEnv: Simplifying SDLC for Distributed SOA Projects
+# OnDemandEnv Platform
 
-Welcome to OnDemandEnv platform - a revolutionary approach to managing distributed service-oriented architectures. Our platform simplifies the software development lifecycle through contract-first design and automated environment management.
+Welcome to OnDemandEnv - a revolutionary platform that simplifies distributed systems development through contract-first design and automated environment management.
 
-## Key Features
+## Features
 
 - **Contract-First Development**
-  - Define service boundaries clearly
-  - Strong typing for interfaces
+  - Define service boundaries with confidence
+  - Strong typing for predictable interfaces
   - Automated dependency tracking
+  - Clear domain boundaries
 
-- **Instant Environment Provisioning**
-  - On-demand infrastructure
-  - Automated configuration
-  - Cross-account deployment
+- **Instant Environments**
+  - On-demand infrastructure provisioning
+  - Automated configuration management
+  - Cross-account deployment support
+  - Comprehensive monitoring
 
-- **Domain-Driven Design Support**
-  - Clear bounded contexts
-  - Business-aligned architecture
-  - Flexible service composition
+- **AI-Ready Architecture**
+  - Machine-readable contracts
+  - Context-aware development
+  - Automated validation
+  - Intelligent dependency resolution
 
 ## Getting Started
 
-1. **Initial Setup**
-   - [Fork the Contracts Library](https://github.com/ondemandenv/odmd-contracts-sandbox)
-   - Configure GitHub integration
-   - Deploy central automation stack
+1. **Quick Setup**
+   ```bash
+   # Fork and clone the contracts repository
+   git clone https://github.com/ondemandenv/odmd-contracts-sandbox
+   ```
 
-2. **Define Services**
+2. **Define Your Services**
    - Create service contracts
    - Specify dependencies
-   - Set environment requirements
+   - Configure environments
 
-3. **Deploy and Manage**
-   - Automatic environment creation
+3. **Deploy & Monitor**
+   - Automated infrastructure creation
    - Dependency resolution
-   - Monitoring and maintenance
+   - Real-time monitoring
 
 ## Documentation
 
-- [Platform Overview](/docs/overview/)
-- [Architecture Details](/docs/theory/platform-architecture/)
-- [AWS Implementation](/docs/implementations/aws/overview/)
-- [Service Contracts](/docs/theory/service-contracts/)
+- [Platform Overview](./docs/)
+- [Architecture Guide](./docs/theory/platform-architecture/)
+- [AWS Implementation](./docs/implementations/aws/overview/)
+- [Service Contracts](./docs/theory/service-contracts/)
 
-## Sample Projects
+## Example Projects
 
-Check out our example implementations:
-- [Coffee Shop Order Management](https://github.com/ondemandenv/coffee-shop--order-manager)
-- [Event-Driven Processing](https://github.com/ondemandenv/coffee-shop--order-processor)
+Check out our sample implementations:
+- [Coffee Shop Manager](https://github.com/ondemandenv/coffee-shop--order-manager)
+- [Order Processing Service](https://github.com/ondemandenv/coffee-shop--order-processor)
 
 ## Benefits
 
-- Reduced complexity in distributed systems
-- Clear service boundaries
-- Automated environment management
-- Improved team productivity
-- Enhanced system reliability
+- **For Engineers**
+  - Clear service boundaries
+  - Automated environment management
+  - Reduced integration complexity
+  - Improved productivity
 
-## Resources
+- **For Organizations**
+  - Faster development cycles
+  - Consistent architecture
+  - Enhanced system reliability
+  - Lower operational costs
+
+## Latest Updates
+
+- Enhanced AWS integration
+- Improved contract validation
+- New visualization features
+- Extended AI capabilities
+
+## Community
 
 - [GitHub Repository](https://github.com/ondemandenv/odmd-platform)
-- [Documentation](/docs/)
-- [API References](https://api.ondemandenv.dev)
-- [Community Support](https://community.ondemandenv.dev)
-
-## Get Involved
-
-We welcome contributions and feedback:
-- Fork our [GitHub repository](https://github.com/ondemandenv/odmd-platform)
-- Submit pull requests
-- Join our [community discussions](https://community.ondemandenv.dev)
+- [Documentation](./docs/)
+- [Support Forum](https://community.ondemandenv.dev)
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
+
+## Contact
+
+For questions and support:
+- Email: gary.y.7811@gmail.com
+- GitHub Issues: [Report a bug](https://github.com/ondemandenv/odmd-platform/issues)
