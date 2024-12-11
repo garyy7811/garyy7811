@@ -2,8 +2,6 @@ theme: jekyll-theme-minimal
 title: OnDemandEnv Platform
 description: Domain-Driven Design for Distributed Systems | A Contract-First Platform
 logo: /assets/img/logo.png
-baseurl: ""
-url: "https://ondemandenv.github.io"
 
 permalink: pretty
 
@@ -21,30 +19,20 @@ sass:
     - node_modules
 
 collections:
-  pages:
+  docs:
     output: true
-    permalink: /:name
+    permalink: /docs/:path/
 
 defaults:
   - scope:
       path: ""
     values:
-      layout: base
+      layout: default
   - scope:
-      path: "pages"
-      type: "pages"
+      path: "docs"
+      type: "docs"
     values:
       layout: page
-  - scope:
-      path: "docs/theory"
-    values:
-      layout: docs
-      section: theory
-  - scope:
-      path: "docs/implementations"
-    values:
-      layout: docs
-      section: implementations
 
 exclude:
   - Gemfile
@@ -53,35 +41,6 @@ exclude:
   - LICENSE
   - vendor
   - node_modules
-
-nav_sections:
-  - name: Theory
-    path: /docs/theory
-    subsections:
-      - name: Overview
-        path: /docs/theory/overview
-      - name: Domain-Driven Design
-        path: /docs/theory/domain-driven-design
-      - name: Service Contracts
-        path: /docs/theory/service-contracts
-      - name: Platform Architecture
-        path: /docs/theory/platform-architecture
-      - name: Use Cases
-        path: /docs/theory/use-cases
-      - name: Divide & Conquer
-        path: /docs/theory/divide-and-conquer
-
-  - name: AWS Implementation
-    path: /docs/implementations/aws
-    subsections:
-      - name: Overview
-        path: /docs/implementations/aws/overview
-      - name: Architecture
-        path: /docs/implementations/aws/architecture
-      - name: Getting Started
-        path: /docs/implementations/aws/getting-started
-      - name: Sample Projects
-        path: /docs/implementations/aws/sample-projects
 
 github:
   is_project_page: true
@@ -94,7 +53,7 @@ navigation:
     url: /
   - title: Theory
     url: /docs/theory/overview
-  - title: Implementation
+  - title: Implementation 
     url: /docs/implementations/aws/overview
   - title: About
     url: /docs/about
