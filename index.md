@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # OnDemandEnv: Simplifying SDLC for Distributed SOA Projects
 
 ## High-Level Platform Overview

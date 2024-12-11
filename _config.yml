@@ -3,8 +3,8 @@ title: OnDemandEnv Platform
 description: Domain-Driven Design for Distributed Systems | A Contract-First Platform
 logo: /assets/img/logo.png
 
-url: https://ondemandenv.github.io
-baseurl: ""
+url: https://garyy7811.github.io
+baseurl: "/garyy7811"
 
 markdown: kramdown
 kramdown:
@@ -61,4 +61,4 @@ navigation:
   - title: Documentation
     url: /docs/
   - title: About
-    url: /docs/about/
+    url: /about/
