@@ -1,8 +1,3 @@
----
-layout: default
-title: OnDemandEnv Platform
----
-
 # OnDemandEnv: Simplifying SDLC for Distributed SOA Projects
 
 ## High-Level Platform Overview
