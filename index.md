@@ -5,73 +5,77 @@ title: Home
 
 # OnDemandEnv: Simplifying SDLC for Distributed SOA Projects
 
-## High-Level Platform Overview
+Welcome to OnDemandEnv platform - a revolutionary approach to managing distributed service-oriented architectures. Our platform simplifies the software development lifecycle through contract-first design and automated environment management.
 
-OnDemandEnv is a revolutionary platform designed to transform distributed service architecture development through a contract-first approach, enabling rapid innovation and simplified software development lifecycle management.
+## Key Features
 
-## Key Platform Features
+- **Contract-First Development**
+  - Define service boundaries clearly
+  - Strong typing for interfaces
+  - Automated dependency tracking
 
-### Instant Environment Provisioning
-- Create isolated service environments automatically
-- Reproduce complex system configurations in seconds
-- Support for multi-cloud and hybrid infrastructures
+- **Instant Environment Provisioning**
+  - On-demand infrastructure
+  - Automated configuration
+  - Cross-account deployment
 
-### Automated Dependency Management
-- Track and resolve service dependencies
-- Version-aware contract management
-- Dynamic service interaction mapping
-
-### Domain-Driven Design
-- Define clear service boundaries
-- Support microservices architecture
-- Enable context-aware infrastructure
-
-## Core Design Principles
-
-1. Minimize unnecessary complexity
-2. Enable rapid innovation
-3. Provide comprehensive system observability
-4. Support domain-driven design
-
-## Technology Compatibility
-
-- Cloud-agnostic platform
-- Support for containerized and serverless architectures
-- Multi-language service implementation
-- Kubernetes and container orchestration integration
+- **Domain-Driven Design Support**
+  - Clear bounded contexts
+  - Business-aligned architecture
+  - Flexible service composition
 
 ## Getting Started
 
-### Prerequisites
-- GitHub Account
-- Cloud Provider Account
-- Basic distributed systems knowledge
+1. **Initial Setup**
+   - [Fork the Contracts Library](https://github.com/ondemandenv/odmd-contracts-sandbox)
+   - Configure GitHub integration
+   - Deploy central automation stack
 
-### Quick Setup Steps
-1. Fork Contracts Library
-2. Configure GitHub Integration
-3. Define Service Contracts
-4. Deploy Central Automation Stack
+2. **Define Services**
+   - Create service contracts
+   - Specify dependencies
+   - Set environment requirements
 
-## Example Use Cases
+3. **Deploy and Manage**
+   - Automatic environment creation
+   - Dependency resolution
+   - Monitoring and maintenance
 
-- Microservices deployment
-- Multi-account infrastructure management
-- Complex service interactions
-- AI-driven development environments
+## Documentation
 
-## Community and Collaboration
+- [Platform Overview](/docs/overview/)
+- [Architecture Details](/docs/theory/platform-architecture/)
+- [AWS Implementation](/docs/implementations/aws/overview/)
+- [Service Contracts](/docs/theory/service-contracts/)
 
-- Open-source platform
-- Active development community
-- Seeking partners and contributors
+## Sample Projects
 
-## Contact Information
+Check out our example implementations:
+- [Coffee Shop Order Management](https://github.com/ondemandenv/coffee-shop--order-manager)
+- [Event-Driven Processing](https://github.com/ondemandenv/coffee-shop--order-processor)
 
-Email: [Platform Contact Email]
-GitHub: [Platform Repository]
-Documentation: [Comprehensive Docs Link]
+## Benefits
+
+- Reduced complexity in distributed systems
+- Clear service boundaries
+- Automated environment management
+- Improved team productivity
+- Enhanced system reliability
+
+## Resources
+
+- [GitHub Repository](https://github.com/ondemandenv/odmd-platform)
+- [Documentation](/docs/)
+- [API References](https://api.ondemandenv.dev)
+- [Community Support](https://community.ondemandenv.dev)
+
+## Get Involved
+
+We welcome contributions and feedback:
+- Fork our [GitHub repository](https://github.com/ondemandenv/odmd-platform)
+- Submit pull requests
+- Join our [community discussions](https://community.ondemandenv.dev)
 
 ## License
 
-MIT Open Source License
+This project is licensed under the MIT License. See the [LICENSE](/LICENSE) file for details.
