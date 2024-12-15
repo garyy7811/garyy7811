@@ -3,8 +3,6 @@ title: OnDemandEnv Platform
 description: Domain-Driven Design for Distributed Systems | A Contract-First Platform
 logo: /assets/img/logo.png
 
-url: https://garyy7811.github.io
-baseurl: /garyy7811
 
 markdown: kramdown
 kramdown:
@@ -47,10 +45,6 @@ exclude:
   - LICENSE
   - vendor
   - node_modules
-
-github:
-  is_project_page: true
-  repository_url: https://github.com/garyy7811/garyy7811
 
 google_analytics:
 
