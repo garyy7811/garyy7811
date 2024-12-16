@@ -1,0 +1,30 @@
+this is a github page website I'm working on, here's all the code
+
+help me change the code so that it can be accessed from garyy7811.github.io
+
+
+
+
+Pay attention here: list all unchanged, new, moved/renamed and deleted files/folders in yaml format strictly:
+
+#Last line received: <last line you received>
+#Total lines received: <how many lines of text you received in message>
+#<lines for conversation/comments>
+#...
+#<lines for conversation/comments>
+unchanged:
+  - <path to file>
+new:
+  - <path to new file>,<file size in integer> #<short comment if needed>
+moved:
+  - <old path>,<new path>
+deleted:
+  - <path to deleted file> #<short comment if needed>
+updated:
+  - <path to file>,<file size in integer> #<short comment if needed>
+
+
+
+
+PLEASE print NOTHING out of the yml, no word, no punctuation or symbol, not even ```yaml line!
+WARNING: Failure to produce EXACTLY the specified YAML format with NO additional text will result in task rejection.
